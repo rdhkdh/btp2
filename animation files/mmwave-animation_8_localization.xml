@@ -1,0 +1,55 @@
+<anim ver="netanim-3.109" filetype="animation" >
+<node id="0" sysId="0" locX="0" locY="0" />
+<node id="1" sysId="0" locX="10" locY="40" />
+<node id="2" sysId="0" locX="50" locY="20" />
+<node id="3" sysId="0" locX="115" locY="30" />
+<node id="4" sysId="0" locX="30" locY="70" />
+<node id="5" sysId="0" locX="115" locY="80" />
+<node id="6" sysId="0" locX="130" locY="150" />
+<node id="7" sysId="0" locX="40" locY="100" />
+<node id="8" sysId="0" locX="60" locY="90" />
+<node id="9" sysId="0" locX="80" locY="100" />
+<node id="10" sysId="0" locX="60" locY="130" />
+<node id="11" sysId="0" locX="80" locY="120" />
+<node id="12" sysId="0" locX="70" locY="110" />
+<nu p="c" t="0" id="0" r="255" g="0" b="0" />
+<nu p="c" t="0" id="1" r="255" g="0" b="0" />
+<nu p="c" t="0" id="2" r="255" g="0" b="0" />
+<nu p="c" t="0" id="3" r="255" g="0" b="0" />
+<nu p="c" t="0" id="4" r="255" g="0" b="0" />
+<nu p="c" t="0" id="5" r="255" g="0" b="0" />
+<nu p="c" t="0" id="6" r="255" g="0" b="0" />
+<nu p="c" t="0" id="7" r="255" g="0" b="0" />
+<nu p="c" t="0" id="8" r="255" g="0" b="0" />
+<nu p="c" t="0" id="9" r="255" g="0" b="0" />
+<nu p="c" t="0" id="10" r="255" g="0" b="0" />
+<nu p="c" t="0" id="11" r="255" g="0" b="0" />
+<nu p="c" t="0" id="12" r="255" g="0" b="0" />
+<nu p="s" t="0" id="0" w="1" h="1" />
+<nu p="s" t="0" id="1" w="1" h="1" />
+<nu p="s" t="0" id="2" w="1" h="1" />
+<nu p="s" t="0" id="3" w="1" h="1" />
+<nu p="s" t="0" id="4" w="1" h="1" />
+<nu p="s" t="0" id="5" w="1" h="1" />
+<nu p="s" t="0" id="6" w="1" h="1" />
+<nu p="s" t="0" id="7" w="1" h="1" />
+<nu p="s" t="0" id="8" w="1" h="1" />
+<nu p="s" t="0" id="9" w="1" h="1" />
+<nu p="s" t="0" id="10" w="1" h="1" />
+<nu p="s" t="0" id="11" w="1" h="1" />
+<nu p="s" t="0" id="12" w="1" h="1" />
+<ncs ncId="0" n="RemainingEnergy" t="DOUBLE" />
+<nu p="c" t="0" id="0" r="0" g="255" b="0" />
+<nu p="c" t="0" id="12" r="255" g="0" b="0" />
+<nu p="c" t="0" id="1" r="0" g="0" b="255" />
+<nu p="c" t="0" id="2" r="0" g="0" b="255" />
+<nu p="c" t="0" id="3" r="0" g="0" b="255" />
+<nu p="c" t="0" id="4" r="0" g="0" b="255" />
+<nu p="c" t="0" id="5" r="0" g="0" b="255" />
+<nu p="c" t="0" id="6" r="0" g="0" b="255" />
+<nu p="c" t="0" id="7" r="0" g="0" b="255" />
+<nu p="c" t="0" id="8" r="0" g="0" b="255" />
+<nu p="c" t="0" id="9" r="0" g="0" b="255" />
+<nu p="c" t="0" id="10" r="0" g="0" b="255" />
+<nu p="c" t="0" id="11" r="0" g="0" b="255" />
+</anim>

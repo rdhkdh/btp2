@@ -1,0 +1,29 @@
+<anim ver="netanim-3.109" filetype="animation" >
+<node id="0" sysId="0" locX="0" locY="0" />
+<node id="1" sysId="0" locX="60" locY="-20" />
+<node id="2" sysId="0" locX="10" locY="40" />
+<nu p="c" t="0" id="0" r="255" g="0" b="0" />
+<nu p="c" t="0" id="1" r="255" g="0" b="0" />
+<nu p="c" t="0" id="2" r="255" g="0" b="0" />
+<nu p="s" t="0" id="0" w="1" h="1" />
+<nu p="s" t="0" id="1" w="1" h="1" />
+<nu p="s" t="0" id="2" w="1" h="1" />
+<ncs ncId="0" n="RemainingEnergy" t="DOUBLE" />
+<nu p="c" t="0" id="0" r="0" g="255" b="0" />
+<nu p="c" t="0" id="1" r="0" g="0" b="255" />
+<nu p="c" t="0" id="2" r="0" g="0" b="255" />
+<nu p="p" t="0.25" id="1" x="60" y="-17.5" />
+<nu p="p" t="0.25" id="2" x="12.5" y="40" />
+<nu p="p" t="0.5" id="1" x="60" y="-15" />
+<nu p="p" t="0.5" id="2" x="15" y="40" />
+<nu p="p" t="0.75" id="1" x="60" y="-12.5" />
+<nu p="p" t="0.75" id="2" x="17.5" y="40" />
+<nu p="p" t="1" id="1" x="60" y="-10" />
+<nu p="p" t="1" id="2" x="20" y="40" />
+<nu p="p" t="1.25" id="1" x="60" y="-7.5" />
+<nu p="p" t="1.25" id="2" x="22.5" y="40" />
+<nu p="p" t="1.5" id="1" x="60" y="-5" />
+<nu p="p" t="1.5" id="2" x="25" y="40" />
+<nu p="p" t="1.75" id="1" x="60" y="-2.5" />
+<nu p="p" t="1.75" id="2" x="27.5" y="40" />
+</anim>
