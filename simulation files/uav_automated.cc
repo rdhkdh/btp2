@@ -122,7 +122,7 @@ main(int argc, char* argv[])
     ptr_mmWave->ActivateDataRadioBearer(ueNetDev, bearer);
 
     //Enable NetAnim
-    AnimationInterface anim("mmwave-animation_8_automated.xml");
+    AnimationInterface anim("mmwave-animation_automated.xml");
     anim.EnablePacketMetadata(true);
     anim.UpdateNodeColor(enbNodes.Get(0), 0, 255, 0); // eNB in green
     for (uint32_t i = 0; i < ueNodes.GetN(); i++)

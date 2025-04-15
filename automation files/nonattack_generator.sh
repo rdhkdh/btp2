@@ -39,7 +39,7 @@ generate_parameters() {
     echo "$n $posn $vel"
 }
 
-# Main loop for 450 test cases
+# Main loop for 550 test cases
 for (( i=1; i<=550; i++ )); do
     echo "Processing Test Case $i..."
     
@@ -56,9 +56,9 @@ for (( i=1; i<=550; i++ )); do
     # Change to ns3 directory
     cd "$NS3_DIR" || exit 1
     
-    # Step 1: Run uav8_automated.cc with generated parameters
+    # Step 1: Run uav_automated.cc with generated parameters
     echo "Running simulation with n=$n, posn=$posn, vel=$vel"
-    ./ns3 run "uav8_automated.cc --n=$n --ue_posn=$posn --ue_vel=$vel"
+    ./ns3 run "uav_automated.cc --n=$n --ue_posn=$posn --ue_vel=$vel"
     
     # Step 2: Run RxParser with current n value
     echo "Running RxParser with n=$n..."

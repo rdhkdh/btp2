@@ -86,7 +86,7 @@ int main(int argc, char* argv[])
     ptr_mmWave->ActivateDataRadioBearer(attackerNetDev, bearer);
 
     // Enable NetAnim
-    AnimationInterface anim("mmwave-animation_8_localization.xml");
+    AnimationInterface anim("mmwave-animation_localization.xml");
     anim.EnablePacketMetadata(true);
     anim.UpdateNodeColor(enbNodes.Get(0), 0, 255, 0);     // eNB in green
     anim.UpdateNodeColor(attackerNodes.Get(0), 255, 0, 0); // attacker in red
