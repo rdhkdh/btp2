@@ -47,7 +47,12 @@ chmod +x ~/ns3-mmwave/attack_generator.sh
 
 
 ### How to run
+* Files included: `model_training.ipynb`, `dataset_visualization.ipynb`.    
+* Run `dataset_flatten.sh` to linearize data for training.  
+* Run the files using Anaconda kernel.  
 
 ## Attacker Localization
 
 ### How to run
+* Files included: `attacker_localization.ipynb`.    
+* Run the files using Anaconda kernel.  
