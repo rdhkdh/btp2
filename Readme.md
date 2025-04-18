@@ -44,7 +44,15 @@ chmod +x ~/ns3-mmwave/attack_generator.sh
 ```
 
 ## Model Training
-
+The model architecture consists of multiple input heads which separately extract features
+ from the input data. Each head will receive input in the form of a time window of values of
+ that parameter. Thus, it is called a multi-headed DNN. Each head consists of convolutional
+ blocks, followed by an LSTM or attention block. The output from each head is then
+ concatenated and reshaped, to make it ready to be passed to subsequent layers. The next few convolutional blocks extract combined characteristics from the concatenated input.
+ This output is then flattened into a 1-dimensional vector and passed through dense blocks.
+ Noise is added to create a regularization effect and prevent over-fitting. Output from the
+ fully connected layers is then passed through a softmax function to produce the probabilities
+ of the 2 classes- Class-1: ’Attack’ and Class-2: ’No Attack’.
 
 ### How to run
 * Files included: `model_training.ipynb`, `dataset_visualization.ipynb`.    
@@ -52,6 +60,16 @@ chmod +x ~/ns3-mmwave/attack_generator.sh
 * Run the files using Anaconda kernel.  
 
 ## Attacker Localization
+ We use a modification of the Centroid Method specified in [LCX+24], called the Weighted
+ Centroid Method. It basically uses SINR values of affected/jammed UAVs as weights to
+ localize the attacker. The lower the SINR of the affected UAV, the closer it might be to
+ the attacker UAV.
+ The Weighted Centroid Localization (WCL) method estimates the position of an at
+tacker in a wireless network by using the Signal-to-Interference-plus-Noise Ratio (SINR)
+ of multiple User Equipments (UEs). The key idea is that SINR values are inversely pro
+portional to the distance from the attacker, with lower SINR values indicating that a UE is closer to the attacker. The method assigns higher weights to UEs with lower SINR values, reflecting their proximity to the attacker’s location. The attacker’s position is then
+ estimated by calculating a weighted average of the UEs’ positions, where the weights are
+ derived from the inverse of the SINR values.
 
 ### How to run
 * Files included: `attacker_localization.ipynb`.    
